@@ -34,7 +34,7 @@ class Lecturer(Mentor):
         
 class Reviewer(Mentor):
     def __init__(self, name, surname, courses_attached):
-        super(),__init__(name, surname, courses_atteched)
+        super().__init__(name, surname, courses_atteched)
         
         
 best_student = Student("Ruoe", "Eman", "your_gender")
